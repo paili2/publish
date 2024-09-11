@@ -1,0 +1,8 @@
+button {
+  background-color: #f4f4f4;
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+  border: 1px solid #f4f4f4;
+  cursor: crosshair;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
