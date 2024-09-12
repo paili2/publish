@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.lemon {
+  background-color: lime;
+}
+
+.move {
+  position: relative;
+  bottom: 150px;
+  left: 150px;
+}
+
+.move1 {
+  position: relative;
+  bottom: 150px;
+  left: 300px;
+}
+
+move2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+body {
+  height: 300vh;
+}
+
+.move3 {
+  /* 고정적 */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+.test {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+/* aqbsolute(단, 자기 조상/부모가 position 없어야 됨 */
+/* 부모가 position 있으면 그걸로 절대 기준으로 바뀜 */
+
+.test1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
