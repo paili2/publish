@@ -1,0 +1,39 @@
+.main {
+  background-color: black;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("genesis-main-key-visual-electrified-g80-25fl-main-hero-desktop-2560x900-kr.jpg");
+  background-size: cover;
+}
+
+.centered {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 210px 0 0 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+
+.model {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 70px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 200px;
+  gap: 50px;
+  font-weight: 700;
+}

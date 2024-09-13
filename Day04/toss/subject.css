@@ -1,0 +1,23 @@
+.subject {
+  width: 100vw;
+  background-color: #f9fafb;
+}
+
+.contents > h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sub__centeredbox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 200px 0 0 0;
+}
+
+.sub__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
